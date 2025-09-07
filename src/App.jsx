@@ -549,7 +549,7 @@ const App = () => {
 
                     <button
                       type="button"
-                      onClick={handleSubmit}
+                      onClick={() => window.location.href = "https://dashboard-eight-red.vercel.app"}
                       className={`${!isLogin ? 'sm:col-span-2' : ''} w-full bg-gradient-to-r from-emerald-500 via-teal-500 to-blue-500 hover:from-emerald-600 hover:via-teal-600 hover:to-blue-600 text-white py-4 px-8 rounded-lg font-bold text-base transition-all transform hover:scale-105 hover:shadow-xl shadow-lg border border-white/20 backdrop-blur-sm mt-6 group`}
                     >
                       <div className="flex items-center justify-center space-x-2">
